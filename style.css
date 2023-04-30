@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@400;600&display=swap');
+
+body{
+    background-color: rgb(11, 11, 11) ;
+    color: #fff;
+    font-family: 'Alegreya', serif;
+
+}
+header, footer, .inf-block {
+    background-color: rgb(40, 40, 40) ;
+
+}
+.main{
+    display:flex;
+    flex-direction: row;
+    gap:1rem;
+    padding: 1rem 0;
+}
+.inf-block{
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+    flex-basis: 300px;
+}
+@media (max-width: 600px) {
+    .main{
+        flex-direction: column;
+    }
+    .inf-block{
+        flex-basis: 0px;
+    }
+}
+header, footer {
+    padding: 0.5rem 1rem;
+}
+.center{
+    max-width: 900px ;
+    margin: 0 auto;
+}
+img {
+    width:100%;
+    padding-top: 1rem;
+}
+a {
+    color: #d5aaea;
+}
+footer p {
+    font-weight: 600;
+}
+h1{
+    font-size: 2rem;
+    line-height: 0.75;
+}
+p {
+    line-height: 1.5;
+}
+h2 {
+    padding: 0;
+    margin:0;
+    line-height: 1;
+    font-size: 1.25rem;
+}
